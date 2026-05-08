@@ -1,0 +1,84 @@
+# -------------------------
+# OS / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -------------------------
+# Terraform
+# -------------------------
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+terraform.rc
+
+# Variables files (DO NOT COMMIT SECRETS)
+*.tfvars
+*.tfvars.json
+EKS-TF/variables.tfvars
+Jenkins-Server-TF/variables.tfvars
+
+# -------------------------
+# Node / React (Tetris apps)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+
+# -------------------------
+# Docker
+# -------------------------
+*.tar
+*.log
+
+# -------------------------
+# Jenkins
+# -------------------------
+*.jenkinsfile.*
+*.groovy
+
+# -------------------------
+# Kubernetes / manifests (optional safety)
+# Ignore only if you generate them dynamically
+# -------------------------
+# *.kubeconfig
+
+# -------------------------
+# Environment files
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# Archives / backups
+# -------------------------
+*.zip
+*.tar.gz
+*.rar
+
+# -------------------------
+# Misc
+# -------------------------
+assets/*.tmp
