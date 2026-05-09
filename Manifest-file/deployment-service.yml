@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: neocancode/tetrisv2:3
+        image: neocancode/tetrisv2:4
         ports:
         - containerPort: 3000
 ---
